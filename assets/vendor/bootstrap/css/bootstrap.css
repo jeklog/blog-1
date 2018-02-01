@@ -210,10 +210,6 @@ img {
   border-style: none;
 }
 
-div {
-  text-align:center; 
-}
-
 svg:not(:root) {
   overflow: hidden;
 }

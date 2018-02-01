@@ -210,8 +210,8 @@ img {
   border-style: none;
 }
 
-iframe {
-  float: middle; 
+div {
+  text-align:center; 
 }
 
 svg:not(:root) {

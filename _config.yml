@@ -1,14 +1,12 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
-baseurl:           "/startbootstrap-clean-blog-jekyll"
-url:               "http://blackrockdigital.github.io"
+title:             C. Foyer
+email:             christophe@cfoyer.com
+description:       Updates on my projects, activities, and more!
+author:            Christophe Foyer
+baseurl:           "/blog"
+url:               "http://www.cfoyer.com"
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+github_username:   Christophe-Foyer
 
 # Build settings
 markdown:          kramdown

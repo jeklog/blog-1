@@ -3,13 +3,14 @@ layout: page
 title: About
 permalink: /about/
 ---
+<h2 style="font-style: italic;"><strong>About</strong></h2>
 
-Some information about you!
+My name is Christophe Foyer, with a B.S. in Mechanical Engineering from Washington University in Saint Louis.
 
-### More Information
+<h2 style="font-style:italic;"><strong>More Information</strong></h2>
 
-A place to include any other types of information that you'd like to include about yourself.
+More information on my accomplishements and education can be found at&nbsp;<http://www.cfoyer.com/>
 
-### Contact me
+<h2 style="font-style:italic;"><strong>Contact Me</strong></h2>
 
-[email@domain.com](mailto:email@domain.com)
+[christophe@cfoyer.com](mailto:christophe@cfoyer.com)&nbsp;or&nbsp;[christophe.foyer@wustl.edu](mailto:christophe.foyer@wustl.edu)

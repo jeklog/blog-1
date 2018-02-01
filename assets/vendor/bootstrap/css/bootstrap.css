@@ -7717,18 +7717,6 @@ button.bg-dark:focus {
   margin-left: auto !important;
 }
 
-html,body {
-    height:100%;
-}
-
-.h_iframe iframe {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-}
-
 @media (min-width: 576px) {
   .m-sm-0 {
     margin: 0 !important;

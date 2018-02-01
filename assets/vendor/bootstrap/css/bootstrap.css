@@ -210,6 +210,10 @@ img {
   border-style: none;
 }
 
+iframe {
+  float: middle; 
+}
+
 svg:not(:root) {
   overflow: hidden;
 }

@@ -9,11 +9,11 @@ layout: default
 
 <script>
 function fallback() {
-    document.getElementById('background_img_header').style = 'background-image: url('{{ page.background | replace: '//', '/' }}')'
+    document.getElementById('background_img_header').style = 'background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')';
 }
 </script>
 
-<header id="background_img_header" class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')" onerror="fallback()">
+<header id="background_img_header" class="masthead" style="background-image: url('{{ page.background | replace: '//', '/' }}')" onerror="fallback()">
 {% else %}
 <header class="masthead">
 {% endif %}

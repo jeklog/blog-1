@@ -5,16 +5,16 @@ layout: default
 <!-- Page Header -->
 {% if page.background %}
 
-<!-- Javascript for header fallback -->
-
+<!-- Script for header fallback -->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script>
 $('<img/>').attr('src', '{{ page.background | prepend: site.baseurl | replace: '//', '/' }}').on('load', function() {
    $(this).remove(); // prevent memory leaks
-   $('body').css('background-image', "url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')");
+   $('#background_img_header').css('background-image', "url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')");
 });
 </script>
 
-<header id="background_img_header" class="masthead" style="background-image: url('{{ page.background | replace: '//', '/' }}')" onerror="fallback()">
+<header id="background_img_header" class="masthead" style="background-image: url('{{ page.background | replace: '//', '/' }}')">
 {% else %}
 <header class="masthead">
 {% endif %}

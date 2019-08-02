@@ -1,17 +1,23 @@
-title:             Christophe Foyer
-email:             christophe@cfoyer.com
-description:       Updates on my projects, activities, and more!
-author:            Christophe Foyer
-baseurl:           "/blog"
-url:               "http://www.cfoyer.com"
-
-# Social Profiles
-github_username:   Christophe-Foyer
-
-# Build settings
-markdown:          kramdown
-paginate:          5
-paginate_path:     "/posts/page:num/"
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
+---
+title: seoleal internal
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
